@@ -1,0 +1,5 @@
+app:
+  build: .
+  command: java -jar dropwizard-example-0.7.1.jar server example.yml
+  ports:
+    - "8080:8080"
